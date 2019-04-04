@@ -1,0 +1,73 @@
+
+*** Running vivado
+    with args -log rx_gtwizard_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source rx_gtwizard_0.tcl
+
+
+****** Vivado v2017.1 (64-bit)
+  **** SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+  **** IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source rx_gtwizard_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1231.043 ; gain = 74.000 ; free physical = 122 ; free virtual = 2757
+INFO: [Synth 8-638] synthesizing module 'rx_gtwizard_0' [/home/deki/Downloads/hsos/gtwizard_0_ex/gtwizard_0_ex.srcs/sources_1/ip/rx_gtwizard_0/rx_gtwizard_0.v:73]
+INFO: [Synth 8-638] synthesizing module 'rx_gtwizard_0_init' [/home/deki/Downloads/hsos/gtwizard_0_ex/gtwizard_0_ex.srcs/sources_1/ip/rx_gtwizard_0/rx_gtwizard_0_init.v:71]
+INFO: [Synth 8-638] synthesizing module 'rx_gtwizard_0_multi_gt' [/home/deki/Downloads/hsos/gtwizard_0_ex/gtwizard_0_ex.srcs/sources_1/ip/rx_gtwizard_0/rx_gtwizard_0_multi_gt.v:70]
+INFO: [Synth 8-638] synthesizing module 'rx_gtwizard_0_GT' [/home/deki/Downloads/hsos/gtwizard_0_ex/gtwizard_0_ex.srcs/sources_1/ip/rx_gtwizard_0/rx_gtwizard_0_gt.v:71]
+INFO: [Synth 8-638] synthesizing module 'GTXE2_CHANNEL' [/opt/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:10642]
+INFO: [Synth 8-256] done synthesizing module 'GTXE2_CHANNEL' (1#1) [/opt/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:10642]
+INFO: [Synth 8-256] done synthesizing module 'rx_gtwizard_0_GT' (2#1) [/home/deki/Downloads/hsos/gtwizard_0_ex/gtwizard_0_ex.srcs/sources_1/ip/rx_gtwizard_0/rx_gtwizard_0_gt.v:71]
+INFO: [Synth 8-638] synthesizing module 'rx_gtwizard_0_cpll_railing' [/home/deki/Downloads/hsos/gtwizard_0_ex/gtwizard_0_ex.srcs/sources_1/ip/rx_gtwizard_0/rx_gtwizard_0_cpll_railing.v:68]
+INFO: [Synth 8-638] synthesizing module 'BUFH' [/opt/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:806]
+INFO: [Synth 8-256] done synthesizing module 'BUFH' (3#1) [/opt/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:806]
+INFO: [Synth 8-256] done synthesizing module 'rx_gtwizard_0_cpll_railing' (4#1) [/home/deki/Downloads/hsos/gtwizard_0_ex/gtwizard_0_ex.srcs/sources_1/ip/rx_gtwizard_0/rx_gtwizard_0_cpll_railing.v:68]
+INFO: [Synth 8-256] done synthesizing module 'rx_gtwizard_0_multi_gt' (5#1) [/home/deki/Downloads/hsos/gtwizard_0_ex/gtwizard_0_ex.srcs/sources_1/ip/rx_gtwizard_0/rx_gtwizard_0_multi_gt.v:70]
+INFO: [Synth 8-638] synthesizing module 'rx_gtwizard_0_RX_STARTUP_FSM' [/home/deki/Downloads/hsos/gtwizard_0_ex/gtwizard_0_ex.srcs/sources_1/ip/rx_gtwizard_0/rx_gtwizard_0/example_design/rx_gtwizard_0_rx_startup_fsm.v:94]
+INFO: [Synth 8-638] synthesizing module 'rx_gtwizard_0_sync_block' [/home/deki/Downloads/hsos/gtwizard_0_ex/gtwizard_0_ex.srcs/sources_1/ip/rx_gtwizard_0/rx_gtwizard_0/example_design/rx_gtwizard_0_sync_block.v:78]
+INFO: [Synth 8-638] synthesizing module 'FD' [/opt/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:3723]
+INFO: [Synth 8-256] done synthesizing module 'FD' (6#1) [/opt/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:3723]
+INFO: [Synth 8-256] done synthesizing module 'rx_gtwizard_0_sync_block' (7#1) [/home/deki/Downloads/hsos/gtwizard_0_ex/gtwizard_0_ex.srcs/sources_1/ip/rx_gtwizard_0/rx_gtwizard_0/example_design/rx_gtwizard_0_sync_block.v:78]
+INFO: [Synth 8-256] done synthesizing module 'rx_gtwizard_0_RX_STARTUP_FSM' (8#1) [/home/deki/Downloads/hsos/gtwizard_0_ex/gtwizard_0_ex.srcs/sources_1/ip/rx_gtwizard_0/rx_gtwizard_0/example_design/rx_gtwizard_0_rx_startup_fsm.v:94]
+INFO: [Synth 8-256] done synthesizing module 'rx_gtwizard_0_init' (9#1) [/home/deki/Downloads/hsos/gtwizard_0_ex/gtwizard_0_ex.srcs/sources_1/ip/rx_gtwizard_0/rx_gtwizard_0_init.v:71]
+INFO: [Synth 8-256] done synthesizing module 'rx_gtwizard_0' (10#1) [/home/deki/Downloads/hsos/gtwizard_0_ex/gtwizard_0_ex.srcs/sources_1/ip/rx_gtwizard_0/rx_gtwizard_0.v:73]
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1270.543 ; gain = 113.500 ; free physical = 182 ; free virtual = 2763
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1270.543 ; gain = 113.500 ; free physical = 183 ; free virtual = 2763
+INFO: [Device 21-403] Loading part xc7k325tffg900-2
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1664.730 ; gain = 0.000 ; free physical = 121 ; free virtual = 2483
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1664.730 ; gain = 507.688 ; free physical = 190 ; free virtual = 2555
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1664.730 ; gain = 507.688 ; free physical = 190 ; free virtual = 2555
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1664.730 ; gain = 507.688 ; free physical = 192 ; free virtual = 2557
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1664.730 ; gain = 507.688 ; free physical = 181 ; free virtual = 2545
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1664.730 ; gain = 507.688 ; free physical = 143 ; free virtual = 2507
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1664.730 ; gain = 507.688 ; free physical = 125 ; free virtual = 2425
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1664.730 ; gain = 507.688 ; free physical = 131 ; free virtual = 2427
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1664.730 ; gain = 507.688 ; free physical = 159 ; free virtual = 2424
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1664.730 ; gain = 507.688 ; free physical = 158 ; free virtual = 2424
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1664.730 ; gain = 507.688 ; free physical = 158 ; free virtual = 2424
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1664.730 ; gain = 507.688 ; free physical = 158 ; free virtual = 2424
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1664.730 ; gain = 507.688 ; free physical = 158 ; free virtual = 2424
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1664.730 ; gain = 507.688 ; free physical = 158 ; free virtual = 2424
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1664.730 ; gain = 507.688 ; free physical = 159 ; free virtual = 2424
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |BUFH          |     1|
+|2     |CARRY4        |    29|
+|3     |GTXE2_CHANNEL |     1|
+|4     |LUT1          |   113|
+|5     |LUT2          |    11|
+|6     |LUT3          |     8|
+|7     |LUT4          |    17|
+|8     |LUT5          |    63|
+|9     |LUT6          |    43|
+|10    |MUXF7         |     2|
+|11    |SRLC32E       |     7|
+|12    |FD            |    42|
+|13    |FDCE          |     9|
+|14    |FDRE          |   142|
+|15    |FDSE          |     7|
++------+--------------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1664.730 ; gain = 507.688 ; free physical = 159 ; free virtual = 2424
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1664.730 ; gain = 562.078 ; free physical = 179 ; free virtual = 2446

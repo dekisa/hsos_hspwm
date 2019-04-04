@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Thu Apr  4 17:48:44 2019
+# Process ID: 20547
+# Current directory: /home/deki/Downloads/hsos/gtwizard_0_ex/gtwizard_0_ex.runs/synth_1
+# Command line: vivado -log gtwizard_0_exdes.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source gtwizard_0_exdes.tcl
+# Log file: /home/deki/Downloads/hsos/gtwizard_0_ex/gtwizard_0_ex.runs/synth_1/gtwizard_0_exdes.vds
+# Journal file: /home/deki/Downloads/hsos/gtwizard_0_ex/gtwizard_0_ex.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source gtwizard_0_exdes.tcl -notrace
